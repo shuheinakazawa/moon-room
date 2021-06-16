@@ -109,15 +109,20 @@ header{
         z-index: 100;
 
         li{
-          padding: 10px;
+          padding-left: 12px;
 
           a{
             font-family: "Gulim", YuGothic, "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, メイリオ, Meiryo, sans-serif;
-            color: #e8e113;
-            font-size: 1.2rem;
+            color: black;
+            font-size: 1rem;
+            font-weight: bold;
           }
           & a:hover {
             color: #FF828C;
+          }
+
+          &:last-of-type{
+            width: 110px;
           }
         }
       }
@@ -584,8 +589,7 @@ footer{
 
             a{
               font-size: 2rem;
-              color: #13CFE8;
-              border-bottom: solid;
+              
             }
           }
         }
@@ -710,6 +714,11 @@ footer{
             border: none;
             color: black;
 
+          }
+
+          &:last-of-type{
+            width: 150px;
+            margin: 0 auto;
           }
         }
       }

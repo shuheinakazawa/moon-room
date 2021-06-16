@@ -105,17 +105,22 @@ header .header-nav .pc-menu .gnav {
 }
 
 header .header-nav .pc-menu .gnav li {
-  padding: 10px;
+  padding-left: 12px;
 }
 
 header .header-nav .pc-menu .gnav li a {
   font-family: "Gulim", YuGothic, "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, メイリオ, Meiryo, sans-serif;
-  color: #e8e113;
-  font-size: 1.2rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 header .header-nav .pc-menu .gnav li a:hover {
   color: #FF828C;
+}
+
+header .header-nav .pc-menu .gnav li:last-of-type {
+  width: 110px;
 }
 
 header .header-nav .btn {
@@ -503,8 +508,6 @@ footer small br {
   }
   header .header-nav .pc-menu .gnav li a {
     font-size: 2rem;
-    color: #13CFE8;
-    border-bottom: solid;
   }
   header .header-nav .btn {
     display: block;
@@ -618,6 +621,10 @@ footer small br {
     font-family: "Lato", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
     border: none;
     color: black;
+  }
+  header .header-nav .sp-menu .gnav li:last-of-type {
+    width: 150px;
+    margin: 0 auto;
   }
   header .header-nav .sp-menu.active {
     left: 0;
