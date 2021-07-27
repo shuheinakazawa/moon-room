@@ -127,13 +127,18 @@ header .header-nav .btn {
   display: none;
 }
 
-#self-esthetic h2 div {
+section .worries {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section #self-esthetic h2 div {
   width: 50%;
   max-width: 250px;
   margin: 0 auto;
 }
 
-#self-esthetic div .project-title {
+section #self-esthetic div .project-title {
   background: #FF828C;
   padding: 20px;
   color: #fff;
@@ -146,7 +151,7 @@ header .header-nav .btn {
   left: -200px;
 }
 
-#self-esthetic div .project-txt {
+section #self-esthetic div .project-txt {
   font-size: 1.2rem;
   color: black;
   padding: 60px 30px 30px 30px;
@@ -159,12 +164,12 @@ header .header-nav .btn {
   box-shadow: 4px 4px 8px grey;
 }
 
-#self-esthetic div .project-txt span {
+section #self-esthetic div .project-txt span {
   padding-top: 10px;
   display: block;
 }
 
-#self-esthetic .features {
+section #self-esthetic .features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,30 +181,30 @@ header .header-nav .btn {
           align-items: center;
 }
 
-#self-esthetic .features .fa-chevron-circle-right {
+section #self-esthetic .features .fa-chevron-circle-right {
   font-size: 25px;
   padding-right: 8px;
   margin-top: 10px;
 }
 
-#self-esthetic .features .fa-chevron-circle-right::before {
+section #self-esthetic .features .fa-chevron-circle-right::before {
   color: #FF828C;
 }
 
-#self-esthetic .features img {
+section #self-esthetic .features img {
   border-bottom: solid 8px #e8e113;
 }
 
-#self-esthetic .features-wrapper {
+section #self-esthetic .features-wrapper {
   display: block;
   margin: 60px 0;
 }
 
-#self-esthetic .features-wrapper .features-list {
+section #self-esthetic .features-wrapper .features-list {
   background-color: transparent;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-left {
+section #self-esthetic .features-wrapper .features-list .features-item-left {
   position: relative;
   background-color: #f9cf28;
   padding: 20px 20px 20px 0;
@@ -210,27 +215,27 @@ header .header-nav .btn {
   border-radius: 30px;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-left div {
+section #self-esthetic .features-wrapper .features-list .features-item-left div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-left div .images {
+section #self-esthetic .features-wrapper .features-list .features-item-left div .images {
   text-align: left;
   padding-right: 48px;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap {
+section #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap {
   display: block;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .features-title {
+section #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .features-title {
   text-align: left;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .features-title span {
+section #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .features-title span {
   background-color: white;
   color: #e8e113;
   padding: 10px;
@@ -241,11 +246,11 @@ header .header-nav .btn {
   display: inline-block;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .features-title span:first-of-type {
+section #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .features-title span:first-of-type {
   margin-bottom: 10px;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .features-txt {
+section #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .features-txt {
   padding-top: 30px;
   font-size: 1rem;
   color: white;
@@ -254,12 +259,12 @@ header .header-nav .btn {
   z-index: 10;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .features-txt span {
+section #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .features-txt span {
   padding-top: 10px;
   display: block;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .num {
+section #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .num {
   position: absolute;
   right: 30px;
   bottom: 0;
@@ -268,7 +273,7 @@ header .header-nav .btn {
   z-index: 9;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-right {
+section #self-esthetic .features-wrapper .features-list .features-item-right {
   position: relative;
   background-color: #f9cf28;
   padding: 20px 0 20px 20px;
@@ -280,7 +285,7 @@ header .header-nav .btn {
   border-radius: 30px;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-right div {
+section #self-esthetic .features-wrapper .features-list .features-item-right div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,20 +296,20 @@ header .header-nav .btn {
           flex-direction: row-reverse;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-right div .images {
+section #self-esthetic .features-wrapper .features-list .features-item-right div .images {
   text-align: right;
   padding-left: 48px;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap {
+section #self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap {
   display: block;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .features-title {
+section #self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .features-title {
   text-align: left;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .features-title span {
+section #self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .features-title span {
   background-color: white;
   color: #e8e113;
   padding: 10px;
@@ -315,11 +320,11 @@ header .header-nav .btn {
   display: inline-block;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .features-title span:first-of-type {
+section #self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .features-title span:first-of-type {
   margin-bottom: 10px;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .features-txt {
+section #self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .features-txt {
   padding-top: 30px;
   font-size: 1rem;
   color: white;
@@ -328,7 +333,7 @@ header .header-nav .btn {
   z-index: 10;
 }
 
-#self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .num {
+section #self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .num {
   position: absolute;
   left: 30px;
   bottom: 0;
@@ -356,6 +361,24 @@ header .header-nav .btn {
 section #reservation h2 div {
   width: 50%;
   max-width: 280px;
+  margin: 0 auto;
+}
+
+section #reservation .reservation-txt {
+  text-align: center;
+  margin: 60px auto;
+}
+
+section #reservation .reservation-txt p {
+  padding-bottom: 15px;
+}
+
+section #reservation .reservation-txt p:first-of-type {
+  padding-bottom: 30px;
+}
+
+section #reservation .reservation-txt p:last-of-type {
+  width: 160px;
   margin: 0 auto;
 }
 
@@ -629,22 +652,22 @@ footer small br {
   header .header-nav .sp-menu.active {
     left: 0;
   }
-  #self-esthetic div .project-title {
+  section #self-esthetic div .project-title {
     top: 60px;
     left: 0;
     padding: 12px;
     font-size: 1.2rem;
     width: 280px;
   }
-  #self-esthetic div .project-txt {
+  section #self-esthetic div .project-txt {
     font-size: 1rem;
     width: 77%;
     padding: 60px 20px 20px;
   }
-  #self-esthetic .features {
+  section #self-esthetic .features {
     margin: 60px auto;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-left {
+  section #self-esthetic .features-wrapper .features-list .features-item-left {
     width: 100%;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -654,26 +677,26 @@ footer small br {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-left div {
+  section #self-esthetic .features-wrapper .features-list .features-item-left div {
     display: block;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-left div .images {
+  section #self-esthetic .features-wrapper .features-list .features-item-left div .images {
     padding-right: 0;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-left div .images img {
+  section #self-esthetic .features-wrapper .features-list .features-item-left div .images img {
     height: 400px;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: 100% 50%;
        object-position: 100% 50%;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap {
+  section #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap {
     padding: 14px;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .num {
+  section #self-esthetic .features-wrapper .features-list .features-item-left div .txt-wrap .num {
     font-size: 5.4rem;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-right {
+  section #self-esthetic .features-wrapper .features-list .features-item-right {
     width: 100%;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -683,23 +706,23 @@ footer small br {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-right div {
+  section #self-esthetic .features-wrapper .features-list .features-item-right div {
     display: block;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-right div .images {
+  section #self-esthetic .features-wrapper .features-list .features-item-right div .images {
     padding-left: 0;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-right div .images img {
+  section #self-esthetic .features-wrapper .features-list .features-item-right div .images img {
     height: 400px;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: 100% 35%;
        object-position: 100% 35%;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap {
+  section #self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap {
     padding: 14px;
   }
-  #self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .num {
+  section #self-esthetic .features-wrapper .features-list .features-item-right div .txt-wrap .num {
     right: 30px;
     left: auto;
     font-size: 5.4rem;
