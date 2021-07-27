@@ -371,10 +371,12 @@ section #reservation .reservation-txt {
 
 section #reservation .reservation-txt p {
   padding-bottom: 15px;
+  font-size: 21px;
 }
 
 section #reservation .reservation-txt p:first-of-type {
   padding-bottom: 30px;
+  font-size: 24px;
 }
 
 section #reservation .reservation-txt p:last-of-type {
@@ -732,6 +734,12 @@ footer small br {
   }
   #service .sp {
     display: none;
+  }
+  section #reservation .reservation-txt p {
+    font-size: 16px;
+  }
+  section #reservation .reservation-txt p:first-of-type {
+    font-size: 18px;
   }
   #visit-flow div .flow-list .flow-item {
     display: block;
